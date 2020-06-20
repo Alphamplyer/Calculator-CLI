@@ -64,9 +64,9 @@ public class Main {
 
     public static void error(Token token, String message) {
         if (token.type == TokenType.EOF) {
-            report("At end", message);
+            report(" at end", message);
         } else {
-            report(" At '" + token.lexeme + "'", message);
+            report(" at '" + token.lexeme + "'", message);
         }
     }
 
