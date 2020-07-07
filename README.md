@@ -33,6 +33,13 @@ Only done with Java JDK 13.0.1
 Can't divide by Zero
 ```
 
+## Run it
+Once you have compile the program, run it with an IDE or the folowing command.
+Obviously, java is recognized as an environment variable and pointing to the Java JDK used to compile (min JDK 13.*).
+```
+> java -Dfile.encoding=UTF-8 -classpath <path to the compiled program> com.alphamplyer.Main
+```
+
 ## Know Issue
 - I don't know why but, when I divide by 0, I have a problem of display 
 of the thrown error (the `>` char is write before the error). Possibly due
